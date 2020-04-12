@@ -26,7 +26,7 @@ version = "0.0.1-SNAPSHOT"
 java.sourceCompatibility = JavaVersion.VERSION_1_8
 
 springBoot {
-    mainClassName = "com.lamarjs.bankingplayground.orchestrator.BankingPlaygroundApplication"
+    mainClassName = "com.lamarjs.bankingplayground.orchestrator.BankingPlaygroundApplication" // update this to match your project structure
 }
 
 val developmentOnly by configurations.creating
